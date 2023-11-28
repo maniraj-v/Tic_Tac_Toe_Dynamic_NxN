@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board-container {
+  display: grid;
+  justify-content: center;
+}
+
+.board-cell {
+  all: unset;
+  padding: 1rem;
+  background-color: black;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  min-height: 20px;
+}
+
+.board-cell:disabled {
+  cursor: not-allowed;
+}
